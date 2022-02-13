@@ -4,17 +4,56 @@
     background-color: $dark-blue;
     border-radius: $border-radius;
 
-    &__info {
-        padding: 32px 34px;
+    &__content {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 2rem 2.125rem;
         background-color: $blue;
         border-radius: inherit;
     }
 
     &__picture {
-        width: clamp(4rem, 2.5vw, 4.875rem);
+        width: 64px;
         border: 3px solid #FFF;
         border-radius: 50%;
     }
+
+    &__title,
+    &__name {
+        margin: 0;
+    }
+
+    &__title {
+        margin-bottom: 0.25rem;
+        color: $pale-blue;
+        font: $fw-regular 0.9375rem/1.1113rem $ff-rubik;
+    }
+
+    &__name {
+        color: #FFF;
+        font: $fw-light clamp(1.5rem, 3vw, 2.5rem)/1.7775rem $ff-rubik;
+    }
+
+    &__timeframes {
+        display: flex;
+        padding: 1.5rem 0;
+
+        button {
+            flex: 1;
+            color: $desaturated-blue;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+    }
 }
 
-// TODO: Add box-shadow for desktop view
+// TODO: Add styles for desktop view
+@media only screen and (min-width: 1000px) {
+    .user {
+        &__name {
+            line-height: 2.9625rem;
+        }
+    }
+}
