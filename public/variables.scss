@@ -18,14 +18,16 @@ $desaturated-blue: hsl(235, 45%, 61%);
 $pale-blue: hsl(236, 100%, 87%);
 
 /* Typography */
-// Body Copy
 
-//- Font size: 18px (card titles e.g. Work, Play)
+$fs-regular: 18px;
 
 /* Font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
 
-//- Family: [Rubik](https://fonts.google.com/specimen/Rubik)
-//- Weights: 300, 400, 500
+$ff-rubik: 'Rubik', sans-serif;
+$fw-light: 300;
+$fw-regular: 400;
+$fw-medium: 500;
 
 /* Shape */
 $border-radius: 15px;
