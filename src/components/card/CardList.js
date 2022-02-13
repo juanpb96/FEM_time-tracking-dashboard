@@ -1,10 +1,12 @@
+import { useMemo } from "react";
+
 import { getData } from "../../selectors/getData";
 import { CardListItem } from "./CardListItem";
 
 
 export const CardList = ({timeframe}) => {
 
-    const data = getData();
+    const data = useMemo(() => getData(), []);
 
     return (
         <>
