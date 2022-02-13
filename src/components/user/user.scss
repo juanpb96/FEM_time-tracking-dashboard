@@ -1,0 +1,20 @@
+@import '/public/variables.scss';
+
+.user {
+    background-color: $dark-blue;
+    border-radius: $border-radius;
+
+    &__info {
+        padding: 32px 34px;
+        background-color: $blue;
+        border-radius: inherit;
+    }
+
+    &__picture {
+        width: clamp(4rem, 2.5vw, 4.875rem);
+        border: 3px solid #FFF;
+        border-radius: 50%;
+    }
+}
+
+// TODO: Add box-shadow for desktop view
