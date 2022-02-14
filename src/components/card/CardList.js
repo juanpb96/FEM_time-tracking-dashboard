@@ -9,8 +9,7 @@ export const CardList = ({timeframe}) => {
     const data = useMemo(() => getData(), []);
 
     return (
-        <>
-            <h2>CardList</h2>
+        <div className="card-list">
             {
                 data.map( activity => (
                     <CardListItem 
@@ -20,6 +19,6 @@ export const CardList = ({timeframe}) => {
                     />
                 ))
             }
-        </>
+        </div>
     );
 };
