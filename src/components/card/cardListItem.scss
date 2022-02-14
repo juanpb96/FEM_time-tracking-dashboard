@@ -1,0 +1,77 @@
+@import '/public/variables.scss';
+
+.card {
+    position: relative;
+    padding-top: 2.375rem;
+    margin-top: 1.5rem;
+    border-radius: $border-radius;
+    overflow: hidden;
+
+    @for $i from 1 through 6 {
+        &:nth-child(#{$i}) {
+            background-color: nth($card-border-colors, $i);
+            
+            &::before {
+                content: nth($card-icons, $i);
+                position: absolute;
+                top: nth($card-top-icons, $i);
+                right: 17px;
+                z-index: 0;
+            }
+        }
+    }
+
+    &__content {
+        position: relative;
+        padding: 1.75rem 1.5rem;
+        background-color: $dark-blue;
+        border-radius: $border-radius;
+        z-index: 1;
+    }
+
+    &__timeframe {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title,
+    &__current {
+        color: #FFF;
+        margin: 0;
+    }
+
+    &__title {
+        margin-bottom: 0.375rem;
+        position: relative;
+        font: $fw-medium 1.125rem/1.3313rem $ff-rubik;
+
+        span {
+            display: inline-block;
+            max-width: 90%;
+        }
+
+        &::after {
+            content: '';
+            width: 21px;
+            height: 5px;
+            position: absolute;
+            top: calc(50% - 2.5px);
+            right: 0;
+            background-image: url(~/public/assets/icon-ellipsis.svg);
+            background-size: cover;
+            cursor: pointer;
+        }
+    }
+
+    &__current {
+        font: $fw-light clamp(2rem, 3vw, 3.5rem)/2.375rem $ff-rubik;
+    }
+
+    &__previous {
+        color: $pale-blue;
+        font: $fw-regular 0.9375rem/1.1113rem $ff-rubik;
+    }
+}
+
+// TODO: Desktop styles
