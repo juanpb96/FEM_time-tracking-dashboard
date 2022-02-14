@@ -10,16 +10,14 @@ $lime-green-exercise: hsl(145, 58%, 55%);
 $violet-social: hsl(264, 64%, 52%);
 $soft-orange-selfcare: hsl(43, 84%, 65%);
 
+$card-border-colors: $light-red-work, $soft-blue-play, $light-red-study, $lime-green-exercise, $violet-social, $soft-orange-selfcare;
+
 // Neutral
 
 $very-dark-blue: hsl(226, 43%, 10%);
 $dark-blue: hsl(235, 46%, 20%);
 $desaturated-blue: hsl(235, 45%, 61%);
 $pale-blue: hsl(236, 100%, 87%);
-
-/* Typography */
-
-$fs-regular: 18px;
 
 /* Font */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
@@ -31,3 +29,24 @@ $fw-medium: 500;
 
 /* Shape */
 $border-radius: 15px;
+
+/* Icons */
+// Images
+$icon-work: url(~/public/assets/icon-work.svg);
+$icon-play: url(~/public/assets/icon-play.svg);
+$icon-study: url(~/public/assets/icon-study.svg);
+$icon-exercise: url(~/public/assets/icon-exercise.svg);
+$icon-social: url(~/public/assets/icon-social.svg);
+$icon-selfcare: url(~/public/assets/icon-self-care.svg);
+
+$card-icons: $icon-work, $icon-play, $icon-study, $icon-exercise, $icon-social, $icon-selfcare;
+
+//Position
+$top-icon-work: -11px;
+$top-icon-play: -14px;
+$top-icon-study: -6px;
+$top-icon-exercise: 0;
+$top-icon-social: -15px;
+$top-icon-selfcare: -19px;
+
+$card-top-icons: $top-icon-work, $top-icon-play, $top-icon-study, $top-icon-exercise, $top-icon-social, $top-icon-selfcare;
