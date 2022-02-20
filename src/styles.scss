@@ -1,0 +1,21 @@
+@import '/public/variables.scss';
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $very-dark-blue;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+}
+
+main {
+    margin: 5.0625rem 1.5rem;
+}
