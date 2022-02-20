@@ -14,7 +14,7 @@
     }
 
     &__picture {
-        width: 64px;
+        width: calc(64px - 3px * 2);
         border: 3px solid #FFF;
         border-radius: 50%;
     }
@@ -42,11 +42,18 @@
         button {
             flex: 1;
             color: $desaturated-blue;
+            font: $fw-regular 1.125rem/1.3331rem $ff-rubik;
             background-color: transparent;
             border: none;
             cursor: pointer;
+            transition: color .3s ease;
+            
+            &.user__active-timeframe {
+                color: #FFF;
+            }
         }
     }
+
 }
 
 // TODO: Add styles for desktop view
