@@ -9,7 +9,7 @@
 
     @for $i from 1 through 6 {
         &:nth-child(#{$i}) {
-            background-color: nth($card-border-colors, $i);
+            background: linear-gradient(nth($card-border-colors, $i), 80%, $dark-blue);
             
             &::before {
                 content: nth($card-icons, $i);
