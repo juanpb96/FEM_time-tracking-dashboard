@@ -1,6 +1,6 @@
 import './user.scss';
 
-export const UserCard = ({handleTimeframeChange}) => {
+export const UserCard = ({timeframe, handleTimeframeChange}) => {
     return (
         <div className="user">
             <div className="user__content">
@@ -15,9 +15,21 @@ export const UserCard = ({handleTimeframeChange}) => {
                 </div>
             </div>
             <div className="user__timeframes">
-                <button type="button" onClick={ () => handleTimeframeChange('daily') }>Daily</button>
-                <button type="button" onClick={ () => handleTimeframeChange('weekly') }>Weekly</button>
-                <button type="button" onClick={ () => handleTimeframeChange('monthly') }>Monthly</button>
+                <button 
+                    type="button" 
+                    onClick={ () => handleTimeframeChange('daily') }
+                    className={ timeframe === 'daily' ? 'user__active-timeframe' : undefined }
+                >Daily</button>
+                <button 
+                    type="button" 
+                    onClick={ () => handleTimeframeChange('weekly') }
+                    className={ timeframe === 'weekly' ? 'user__active-timeframe' : undefined }
+                >Weekly</button>
+                <button 
+                    type="button" 
+                    onClick={ () => handleTimeframeChange('monthly') }
+                    className={ timeframe === 'monthly' ? 'user__active-timeframe' : undefined }
+                >Monthly</button>
             </div>
         </div>
     )
