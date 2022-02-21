@@ -74,4 +74,26 @@
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .card {
+        margin-top: 0;
+        min-width: 255px;
+        
+        &__title {
+            margin-bottom: 1.5rem;
+        }
+
+        &__timeframe {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 0.5rem;
+        }
+
+        &__previous {
+            margin: 0;
+        }
+    }
+}
+
 // TODO: Desktop styles
