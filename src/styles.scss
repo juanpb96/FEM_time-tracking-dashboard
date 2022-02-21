@@ -18,4 +18,14 @@ body {
 
 main {
     margin: 5.0625rem 1.5rem;
+    max-width: 1110px;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        display: flex;
+        gap: 1.875rem;
+        width: 80%;
+        margin: 5.0625rem auto;
+    }
 }
