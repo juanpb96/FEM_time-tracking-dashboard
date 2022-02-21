@@ -56,6 +56,31 @@
 
 }
 
+@media only screen and (min-width: 768px) {
+    .user {
+        max-height: 32.375rem;
+        min-width: 15.9375rem;
+
+        &__content {
+            padding: 2.375rem 2rem;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 2.625rem;
+        }
+
+        &__picture {
+            width: calc(78px - 3px * 2);
+        }
+
+        &__timeframes {
+            padding: 1.625rem 2rem 2rem;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1.3125rem;
+        }
+    }
+}
+
 // TODO: Add styles for desktop view
 @media only screen and (min-width: 1000px) {
     .user {
