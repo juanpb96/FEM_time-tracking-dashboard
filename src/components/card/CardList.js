@@ -2,6 +2,7 @@ import { useMemo } from "react";
 
 import { getData } from "../../selectors/getData";
 import { CardListItem } from "./CardListItem";
+import './cardList.scss';
 
 
 export const CardList = ({timeframe}) => {
