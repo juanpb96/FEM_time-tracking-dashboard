@@ -81,11 +81,22 @@
     }
 }
 
-// TODO: Add styles for desktop view
 @media only screen and (min-width: 1000px) {
     .user {
+        &__content {
+            padding-bottom: 5rem;
+        }
+
         &__name {
             line-height: 2.9625rem;
+        }
+
+        &__timeframes {
+            button {
+                &:hover {
+                    color: #FFF;
+                }
+            }
         }
     }
 }
