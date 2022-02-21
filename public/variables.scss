@@ -18,6 +18,7 @@ $very-dark-blue: hsl(226, 43%, 10%);
 $dark-blue: hsl(235, 46%, 20%);
 $desaturated-blue: hsl(235, 45%, 61%);
 $pale-blue: hsl(236, 100%, 87%);
+$active-blue: hsla(236, 41%, 34%, 1);
 
 /* Font */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
@@ -42,11 +43,30 @@ $icon-selfcare: url(~/public/assets/icon-self-care.svg);
 $card-icons: $icon-work, $icon-play, $icon-study, $icon-exercise, $icon-social, $icon-selfcare;
 
 //Position
-$top-icon-work: -11px;
-$top-icon-play: -14px;
-$top-icon-study: -6px;
-$top-icon-exercise: 0;
-$top-icon-social: -15px;
-$top-icon-selfcare: -19px;
+$top-icon-work-mobile: -11px;
+$top-icon-play-mobile: -14px;
+$top-icon-study-mobile: -6px;
+$top-icon-exercise-mobile: 0;
+$top-icon-social-mobile: -15px;
+$top-icon-selfcare-mobile: -19px;
 
-$card-top-icons: $top-icon-work, $top-icon-play, $top-icon-study, $top-icon-exercise, $top-icon-social, $top-icon-selfcare;
+$card-top-icons-mobile: $top-icon-work-mobile, 
+                        $top-icon-play-mobile, 
+                        $top-icon-study-mobile, 
+                        $top-icon-exercise-mobile, 
+                        $top-icon-social-mobile, 
+                        $top-icon-selfcare-mobile;
+
+$top-icon-work-desktop: -11px;
+$top-icon-play-desktop: -5px;
+$top-icon-study-desktop: -6px;
+$top-icon-exercise-desktop: 0;
+$top-icon-social-desktop: -15px;
+$top-icon-selfcare-desktop: -11px;
+
+$card-top-icons-desktop: $top-icon-work-desktop, 
+                         $top-icon-play-desktop, 
+                         $top-icon-study-desktop, 
+                         $top-icon-exercise-desktop, 
+                         $top-icon-social-desktop, 
+                         $top-icon-selfcare-desktop;
