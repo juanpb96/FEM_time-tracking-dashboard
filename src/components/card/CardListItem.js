@@ -8,7 +8,12 @@ export const CardListItem = ({selectedTimeframe, title, timeframes}) => {
     return (
         <div className="card">
             <div className="card__content">
-                <h3 className="card__title"><span>{ title }</span></h3>
+                <h3 className="card__title">
+                    <span>{ title }</span>
+                    <span className='card__icon-ellipsis'>
+                        <span className='sr-only'>See more</span>
+                    </span>
+                </h3>
                 <div className="card__timeframe">
                     <h2 className="card__current">{ current }hrs</h2>
                     <p className="card__previous">

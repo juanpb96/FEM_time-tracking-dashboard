@@ -42,14 +42,20 @@
     }
 
     &__title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         margin-bottom: 0.375rem;
-        position: relative;
         font: $fw-medium 1.125rem/1.3313rem $ff-rubik;
 
         span {
             display: inline-block;
             max-width: 90%;
         }
+    }
+
+    &__icon-ellipsis {
+        position: relative;
 
         &::after {
             content: '';
@@ -58,7 +64,7 @@
             position: absolute;
             top: calc(50% - 2.5px);
             right: 0;
-            background-image: url(~/public/assets/icon-ellipsis.svg);
+            background-image: url(../card/images/icon-ellipsis.svg);
             background-size: cover;
             cursor: pointer;
         }
@@ -117,9 +123,9 @@
             }
         }
 
-        &__title {
+        &__icon-ellipsis {
             &:hover::after {
-                background-image: url(~/public/assets/icon-ellipsis-active.svg);
+                background-image: url(../card/images/icon-ellipsis-active.svg);
             }
         }
 
