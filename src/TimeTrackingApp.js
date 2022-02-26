@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { UserCard } from "./components/user/UserCard";
 import { CardList } from "./components/card/CardList";
-import './styles.scss';
+import './styles/styles.scss';
 
 
 export const TimeTrackingApp = () => {
