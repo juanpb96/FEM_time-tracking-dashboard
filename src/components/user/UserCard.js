@@ -6,7 +6,7 @@ export const UserCard = ({timeframe, handleTimeframeChange}) => {
             <div className="user__content">
                 <img 
                     className="user__picture" 
-                    src="/assets/image-jeremy.png" 
+                    src="./assets/image-jeremy.png" 
                     alt="Jeremy's profile"
                 />
                 <div className="user__info">
