@@ -25,12 +25,12 @@ main {
     main {
         display: flex;
         gap: 1.875rem;
-        width: 80%;
+        width: 90%;
         margin: 5.0625rem auto;
     }
 }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1390px) {
     main {
         margin: 0;
         position: absolute;
