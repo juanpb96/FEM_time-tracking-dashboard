@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <UserCard /> should render the component correctly 1`] = `
+<div
+  className="user"
+>
+  <div
+    className="user__content"
+  >
+    <img
+      alt="Jeremy's profile"
+      className="user__picture"
+      src="./assets/image-jeremy.png"
+    />
+    <div
+      className="user__info"
+    >
+      <h3
+        className="user__title"
+      >
+        Report for
+      </h3>
+      <h2
+        className="user__name"
+      >
+        Jeremy Robson
+      </h2>
+    </div>
+  </div>
+  <div
+    className="user__timeframes"
+  >
+    <button
+      className="user__active-timeframe"
+      onClick={[Function]}
+      type="button"
+    >
+      Daily
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Weekly
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Monthly
+    </button>
+  </div>
+</div>
+`;

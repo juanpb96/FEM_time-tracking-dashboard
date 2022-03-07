@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test in <CardListItem /> should render the component correctly 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card__content"
+  >
+    <h3
+      className="card__title"
+    >
+      <span>
+        Work
+      </span>
+      <span
+        className="card__icon-ellipsis"
+      >
+        <span
+          className="sr-only"
+        >
+          See more
+        </span>
+      </span>
+    </h3>
+    <div
+      className="card__timeframe"
+    >
+      <h2
+        className="card__current"
+      >
+        32
+        hrs
+      </h2>
+      <p
+        className="card__previous"
+      >
+        Last week
+         - 
+        36
+        hrs
+      </p>
+    </div>
+  </div>
+</div>
+`;
