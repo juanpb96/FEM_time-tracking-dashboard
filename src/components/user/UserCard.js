@@ -10,7 +10,7 @@ export const UserCard = ({timeframe, handleTimeframeChange}) => {
                     alt="Jeremy's profile"
                 />
                 <div className="user__info">
-                    <h3 className='user__title'>Report for</h3>
+                    <p className='user__title'>Report for</p>
                     <h2 className="user__name">Jeremy Robson</h2>
                 </div>
             </div>
