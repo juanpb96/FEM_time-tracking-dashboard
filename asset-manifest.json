@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FEM_time-tracking-dashboard/static/css/main.dadd7992.css",
-    "main.js": "/FEM_time-tracking-dashboard/static/js/main.b6b524ef.js",
+    "main.js": "/FEM_time-tracking-dashboard/static/js/main.0d2a6238.js",
     "static/media/icon-exercise.svg": "/FEM_time-tracking-dashboard/static/media/icon-exercise.3e7b028289414a132318.svg",
     "static/media/icon-social.svg": "/FEM_time-tracking-dashboard/static/media/icon-social.64be0c18d185740e487b.svg",
     "static/media/icon-study.svg": "/FEM_time-tracking-dashboard/static/media/icon-study.1f0a65e457bfa6398827.svg",
@@ -12,10 +12,10 @@
     "static/media/icon-ellipsis-active.svg": "/FEM_time-tracking-dashboard/static/media/icon-ellipsis-active.162fc2a1b11747ffd314.svg",
     "static/media/icon-ellipsis.svg": "/FEM_time-tracking-dashboard/static/media/icon-ellipsis.a57a4ac863593bb69d31.svg",
     "main.dadd7992.css.map": "/FEM_time-tracking-dashboard/static/css/main.dadd7992.css.map",
-    "main.b6b524ef.js.map": "/FEM_time-tracking-dashboard/static/js/main.b6b524ef.js.map"
+    "main.0d2a6238.js.map": "/FEM_time-tracking-dashboard/static/js/main.0d2a6238.js.map"
   },
   "entrypoints": [
     "static/css/main.dadd7992.css",
-    "static/js/main.b6b524ef.js"
+    "static/js/main.0d2a6238.js"
   ]
 }
